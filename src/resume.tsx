@@ -398,6 +398,12 @@ export const Resume = () => {
                 </Link>
               </View>
               <View style={s.contactRow}>
+                <Text style={s.contactIcon}>{"W"}</Text>
+                <Link src={`https://${d.contact.portfolio}`} style={s.contactLink}>
+                  <Text>{d.contact.portfolio}</Text>
+                </Link>
+              </View>
+              <View style={s.contactRow}>
                 <Text style={s.contactIcon}>{"~"}</Text>
                 <Text style={s.contactText}>{d.contact.location}</Text>
               </View>

@@ -57,7 +57,8 @@ cp outputs/YYYY-MM-DD-resume.pdf versions/YYYY-MM-DD-HHMM-resume.pdf
 - **Highlighted skills:** Go, Python, TypeScript, AWS, Docker, Kubernetes, React, Next.js, HTML, CSS, JS, LLMs, Claude, Prompt Eng., API Design get purple pill variant
 - **Highlighted pills always come first** in their section — highlighted items before non-highlighted
 - **Date column:** Right-aligned, purple accent color — keep clean/open whitespace below dates
-- **Contact info:** 10pt font, right-aligned in header with icon labels (IN, @, </>, ○, ☎)
+- **Contact info:** 10pt font, right-aligned in header with icon labels (IN, @, </>, W, ○, ☎) — order lines by text length similarity so the column looks visually balanced
+- **Portfolio URL:** `waggertron.github.io/weylin` with "W" icon, placed between GitHub and location lines
 - **Section spacing:** Keep tight between role headers and bullets — minimize vertical gaps
 - **Bottom gap:** Minimize distance between last content and page bottom
 

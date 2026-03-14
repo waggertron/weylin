@@ -6,6 +6,7 @@ export const resumeData = {
     linkedin: "linkedin.com/in/weylin-wagnon",
     email: "weylinwagnon@gmail.com",
     github: "github.com/waggertron",
+    portfolio: "waggertron.github.io/weylin",
     location: "Los Angeles, CA",
     phone: "(310) 855 4382",
   },
