@@ -1,0 +1,23 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "tsx generate.tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@react-pdf/renderer": "^4.3.2",
+    "@types/react": "^19.2.14",
+    "react": "^19.2.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5"
+  }
+}
