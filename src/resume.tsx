@@ -386,6 +386,12 @@ export const Resume = () => {
                 </Link>
               </View>
               <View style={s.contactRow}>
+                <Text style={s.contactIcon}>{"W"}</Text>
+                <Link src={`https://${d.contact.portfolio}`} style={s.contactLink}>
+                  <Text>{d.contact.portfolio}</Text>
+                </Link>
+              </View>
+              <View style={s.contactRow}>
                 <Text style={s.contactIcon}>@</Text>
                 <Link src={`mailto:${d.contact.email}`} style={s.contactLink}>
                   <Text>{d.contact.email}</Text>
@@ -395,12 +401,6 @@ export const Resume = () => {
                 <Text style={s.contactIcon}>{"</>"}</Text>
                 <Link src={`https://${d.contact.github}`} style={s.contactLink}>
                   <Text>{d.contact.github}</Text>
-                </Link>
-              </View>
-              <View style={s.contactRow}>
-                <Text style={s.contactIcon}>{"W"}</Text>
-                <Link src={`https://${d.contact.portfolio}`} style={s.contactLink}>
-                  <Text>{d.contact.portfolio}</Text>
                 </Link>
               </View>
               <View style={s.contactRow}>
