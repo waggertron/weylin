@@ -1,0 +1,13 @@
+# Allowlist approach: ignore everything by default, then explicitly allow.
+*
+
+# Allowed top-level files
+!.gitignore
+!index.html
+
+# Allow the outputs directory itself, but ignore everything inside…
+!outputs/
+outputs/*
+
+# …except the currently-served resume PDF.
+!outputs/2026-04-24-resume-cv-weylin-wagnon.pdf
