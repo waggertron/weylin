@@ -28,24 +28,24 @@ export const resumeData = {
   experience: [
     {
       company: "Syntrologie AI",
+      role: "AI Solutions Engineer",
+      date: "2026 \u2013 Present",
+      bullets: [
+        "Promoted from Senior Full Stack Engineer into ~~AI Solutions Engineer~~ to lead applied AI solution design across LLM-powered shopping assistants, adaptive product experiences, and internal agent workflows",
+        "Enabled LLMs to mount dynamic product comparison widgets by adding authorable row schemas and runtime merge support, replacing brittle text-table answers with structured recommendations that answer visitor-specific questions",
+        "Replaced seeded product-catalog prompt dumps with ~~Azure AI Search~~ hybrid retrieval over Shopify-native product data, indexing 17 demo products with workspace isolation, wiki-enriched context, and top-k product retrieval",
+        "Cut personalized PDP latency by eliminating runaway model reasoning in sub-agent calls, reusing bounded scoring settings across runtime paths, and backing the fix with adaptive, canvas, and backend regression suites",
+      ],
+    },
+    {
+      company: "Syntrologie AI",
       role: "Senior Full Stack Engineer",
-      date: "2025 \u2013 Present",
+      date: "2025 \u2013 2026",
       bullets: [
         "Accelerated team velocity by architecting platform infrastructure from scratch \u2014 design system, B2B auth, CI/CD pipelines, and automated type generation across a Next.js / FastAPI microservices codebase with feature flags and experimentation, cutting deployment time by ~~50%~~",
         "Reduced cloud infrastructure costs by ~~40%~~ through Karpenter-driven node right-sizing and KEDA-based workload autoscaling, eliminating over-provisioned capacity across the platform",
         "Instituted security processes and runbooks across the full stack to ensure ~~SOC 2 compliance~~ for enterprise-level security, including automated regression testing, auditable workflows, and continuous vulnerability remediation",
         "Reduced production defects by building testing infrastructure from zero to ~~95% test coverage~~ across unit, component, and integration tests plus a Playwright E2E suite for post-deploy smoke validation in staging and production",
-        "Authored ~~20+ prompt-engineered AI agent skills~~ codifying adversarial code review, TDD enforcement, architecture docs, and multi-stage PR management into structured instructions that standardized engineering practices and reduced AI inference costs",
-      ],
-    },
-    {
-      company: "Uplabs",
-      role: "Technical Hiring Consultant (Business Development)",
-      date: "2025",
-      bullets: [
-        "Improved engineering hiring quality by building a recruitment and placement framework for senior and lead software engineers, reducing average time-to-hire across multiple client organizations and technical domains",
-        "Increased new hire retention by designing structured onboarding programs with mentorship pairing, technical interview training for proctors, and cross-functional lead development across the organization",
-        "Standardized technical assessments with reproducible evaluation criteria balancing deep technical skill, collaborative problem solving, and communication quality \u2014 adopted as the default hiring process across all open engineering roles",
       ],
     },
     {
@@ -76,8 +76,6 @@ export const resumeData = {
         "Prevented over ~~$40k/week~~ in fraud losses by implementing a machine learning detection API with TensorFlow, Python, and Flask that scored and flagged suspicious transactions against trained behavioral models in real time",
         "Mitigated large-scale credential stuffing attacks by developing a low-latency Go WAF service integrated with AWS WAF, Lambda, and Redis for automated rate limiting, IP reputation scoring, and threat blocking",
         "Increased deployment reliability across engineering by building and maintaining Kubernetes infrastructure for CI/CD pipelines using Terraform, GitOps, and Argo with automated rollback capabilities and canary deployments",
-        "Strengthened code quality org-wide by integrating automated security scanning and approval standards through dynamic pipeline stages with configurable enforcement policies, audit logging, and exception workflows",
-        "Improved engineer onboarding velocity as a member of the working group that designed and launched the structured training and mentorship program adopted by all engineering teams across the company",
       ],
     },
     {
