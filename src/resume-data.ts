@@ -28,20 +28,13 @@ export const resumeData = {
   experience: [
     {
       company: "Syntrologie AI",
-      role: "AI Solutions Engineer",
-      date: "2026 \u2013 Present",
+      role: "Senior Software Engineer",
+      date: "2025 \u2013 Present",
       bullets: [
         "Implemented typed LLM extraction for website DOM analysis using ~~Instructor and Pydantic~~, validating model responses against structured pipeline contracts",
         "Moved workflow analysis and segment generation into ~~Redis/RQ background workers~~, connecting FastAPI endpoints and frontend result retrieval for asynchronous processing",
         "Added integration and component tests for embedding-provider boundaries and Redis wiki caching, covering AI data dependencies and recovery behavior",
         "Corrected PPO token-probability calculations and variable-length minibatch handling in a ~~PyTorch RLHF research implementation~~, adding local transformer regression tests",
-      ],
-    },
-    {
-      company: "Syntrologie AI",
-      role: "Senior Full Stack Engineer",
-      date: "2025 \u2013 2026",
-      bullets: [
         "Built ~~Kubernetes GitOps delivery~~ with GitHub Actions, Helm, and Argo CD, separating application builds from infrastructure updates and verifying image rollout and application health",
         "Extended ~~Terraform~~ infrastructure for application workloads, configuring private Azure Blob storage and environment-specific access; reconfigured EKS capacity with On-Demand and Spot node groups",
         "Built live analysis progress updates with FastAPI Server-Sent Events and React, giving users visibility into long-running processing workflows",
