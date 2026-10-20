@@ -21,8 +21,8 @@ export const resumeData = {
     experienced: [
       "AI/ML (PyTorch, TensorFlow, Scikit-Learn)", "LLMs (Claude API, Ollama)", "NLP",
       "Distributed Systems", "Serverless", "Event-Driven Architecture", "CQRS", "GraphQL",
-      "WebSockets", "SQLAlchemy", "GORM", "Stripe", "Twilio", "Docker Compose",
-      "Nginx", "Prometheus", "OpenAPI", "Playwright", "Pytest",
+      "WebSockets", "SQLAlchemy", "GORM", "Prisma", "Stripe", "Twilio", "Docker Compose",
+      "Nginx", "Prometheus", "OpenAPI", "Playwright", "Pytest", "Kafka",
     ],
   },
   experience: [
