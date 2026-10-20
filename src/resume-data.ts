@@ -36,7 +36,7 @@ export const resumeData = {
         "Added integration and component tests for embedding-provider boundaries and Redis wiki caching, covering AI data dependencies and recovery behavior",
         "Corrected PPO token-probability calculations and variable-length minibatch handling in a ~~PyTorch RLHF research implementation~~, adding local transformer regression tests",
         "Built ~~Kubernetes GitOps delivery~~ with GitHub Actions, Helm, and Argo CD, separating application builds from infrastructure updates and verifying image rollout and application health",
-        "Extended ~~Terraform~~ infrastructure for application workloads, configuring private Azure Blob storage and environment-specific access; reconfigured EKS capacity with On-Demand and Spot node groups",
+        "Implemented ~~end-to-end CI/CD and infrastructure as code~~ using Terraform, GitHub Actions, Docker, Kubernetes, and Argo CD to automate infrastructure provisioning and containerized application deployments",
         "Built live analysis progress updates with FastAPI Server-Sent Events and React, giving users visibility into long-running processing workflows",
         "Established shared contracts and access controls across Next.js and FastAPI, automating TypeScript generation from OpenAPI in CI and enforcing role-based API permissions with regression coverage",
       ],
