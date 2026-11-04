@@ -117,6 +117,13 @@ export const resumeData = {
       ],
     },
   ],
+  consulting: {
+    role: "Independent Software Consultant",
+    date: "2018 \u2013 Present",
+    bullets: [
+      "Build and host websites, internal business software, and e-commerce updates for small businesses",
+    ],
+  },
   education: {
     school: "UC San Diego",
     degree: "BS Human Biology",

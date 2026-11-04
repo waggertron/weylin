@@ -575,6 +575,18 @@ export const Resume = ({ titleOverride, highlightSkillsOverride }: ResumeProps =
                 ))}
               </View>
             ))}
+            <View wrap={false}>
+              <Text style={s.mainSectionTitle}>Independent Consulting</Text>
+              <View style={s.expEntry}>
+                <View style={s.expHeader}>
+                  <Text style={s.expRole}>{d.consulting.role}</Text>
+                  <Text style={s.expDate}>{d.consulting.date}</Text>
+                </View>
+                {d.consulting.bullets.map((bullet, i) => (
+                  <Bullet key={i} text={bullet} />
+                ))}
+              </View>
+            </View>
           </View>
         </View>
       </Page>
