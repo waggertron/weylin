@@ -443,7 +443,7 @@ export const Resume = ({ titleOverride, highlightSkillsOverride }: ResumeProps =
             <View style={s.skillCategory} wrap={false}>
               <Text style={s.skillCategoryLabel}>AI & ML</Text>
               <View style={s.pillRow}>
-                {["LLMs", "Claude", "ChatGPT", "Cursor", "DeepSeek", "Prompt Eng.", "LangChain", "RAG", "MLOps", "PyTorch", "Scikit-Learn"].map((sk) => (
+                {["LLMs", "Claude", "ChatGPT", "Cursor", "DeepSeek", "Prompt Eng.", "Instructor", "LangChain", "RAG", "MLOps", "PyTorch", "Scikit-Learn"].map((sk) => (
                   <Pill key={sk} text={sk} highlight={highlightSkills.includes(sk) || (!highlightSkillsOverride && ["LLMs", "Claude", "Prompt Eng."].includes(sk))} />
                 ))}
               </View>

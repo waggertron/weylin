@@ -19,7 +19,7 @@ export const resumeData = {
       "FastAPI", "Express", "Gin", "CI/CD", "TDD", "Git", "Linux",
     ],
     experienced: [
-      "AI/ML (PyTorch, TensorFlow, Scikit-Learn)", "LLMs (Claude API, Ollama)", "NLP",
+      "AI/ML (PyTorch, TensorFlow, Scikit-Learn)", "LLMs (Claude API, Ollama)", "Instructor", "NLP",
       "Distributed Systems", "Serverless", "Event-Driven Architecture", "CQRS", "GraphQL",
       "WebSockets", "SQLAlchemy", "GORM", "Prisma", "Stripe", "Twilio", "Docker Compose",
       "Nginx", "Prometheus", "OpenAPI", "Playwright", "Pytest", "Kafka",
@@ -31,7 +31,7 @@ export const resumeData = {
       role: "Senior Software Engineer",
       date: "2025 \u2013 Present",
       bullets: [
-        "Implemented typed LLM extraction for website DOM analysis using ~~Instructor and Pydantic~~, validating model responses against structured pipeline contracts",
+        "Reduced LLM response errors in website DOM analysis by implementing structured extraction with ~~Instructor and Pydantic~~, validating outputs against reusable data models for downstream services",
         "Moved workflow analysis and segment generation into ~~Redis/RQ background workers~~, connecting FastAPI endpoints and frontend result retrieval for asynchronous processing",
         "Added integration and component tests for embedding-provider boundaries and Redis wiki caching, covering AI data dependencies and recovery behavior",
         "Corrected PPO token-probability calculations and variable-length minibatch handling in a ~~PyTorch RLHF research implementation~~, adding local transformer regression tests",
