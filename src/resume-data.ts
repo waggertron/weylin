@@ -120,7 +120,11 @@ export const resumeData = {
     role: "Independent Software Consultant",
     date: "2018 \u2013 Present",
     bullets: [
-      "Built and hosted websites, internal business software, and e-commerce updates for small businesses",
+      "Built media management dashboards for video editing workflows and multi-user content organization workflows",
+      "Developed restaurant websites combining online ordering with menus and business information",
+      "Built contractor websites for service inquiries and appointment scheduling",
+      "Developed social media management tools for organizing content and scheduling posts",
+      "Built SMS fleet management tools to support large-scale business communications",
     ],
   },
   education: {
