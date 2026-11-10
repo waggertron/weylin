@@ -1,6 +1,6 @@
 # Resume collaboration memory
 
-Updated November 6, 2026. User-requested persistent preferences for this project.
+Updated November 9, 2026. User-requested persistent preferences for this project.
 
 ## Current positioning
 
@@ -34,3 +34,8 @@ Updated November 6, 2026. User-requested persistent preferences for this project
 - No quantified error reduction, formal comparison experiment, or business-impact measurement was supplied. Free-form responses plus custom parsing are the alternative discussed in the draft; do not describe a completed benchmark or experiment without confirmation. Schema conformance does not establish factual correctness.
 
 This is project memory, not a claim that account-level ChatGPT memory was modified.
+
+## Resume tense
+
+- Use consistent past tense for accomplishment bullets, including current employment and independent consulting (for example, “Built and hosted,” not “Build and host”).
+- Keep ongoing role dates accurate, including “Present”; past-tense accomplishments do not imply the role ended.
