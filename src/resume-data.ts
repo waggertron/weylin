@@ -121,7 +121,7 @@ export const resumeData = {
     date: "2018 \u2013 Present",
     bullets: [
       "Built media management dashboards for video editing workflows and multi-user content organization workflows",
-      "Developed restaurant websites combining online ordering with menus and business information",
+      "Developed dining management web apps supporting online ordering with menus and business information",
       "Built contractor websites for service inquiries and appointment scheduling",
       "Developed social media management tools for organizing content and scheduling posts",
       "Built SMS fleet management tools to support large-scale business communications",
