@@ -1,6 +1,6 @@
 export const resumeData = {
   name: "Weylin Wagnon",
-  title: "Fullstack | Backend | Platform | AI & Web",
+  title: "Senior Software Engineer | AI-Assisted Development | Backend & Full Stack",
   tagline: "Let's build big, bold things, but let's never forget who we build them for",
   contact: {
     linkedin: "linkedin.com/in/weylin-wagnon",
@@ -19,7 +19,7 @@ export const resumeData = {
       "FastAPI", "Express", "Gin", "CI/CD", "TDD", "Git", "Linux",
     ],
     experienced: [
-      "AI/ML (PyTorch, TensorFlow, Scikit-Learn)", "LLMs (Claude API, Ollama)", "Codex", "Gemini", "Instructor", "NLP",
+      "AI/ML (PyTorch, TensorFlow, Scikit-Learn)", "LLMs (Claude API, Ollama)", "Codex", "Cursor", "Gemini", "Instructor", "NLP",
       "Distributed Systems", "Serverless", "Event-Driven Architecture", "CQRS", "GraphQL",
       "WebSockets", "SQLAlchemy", "GORM", "Prisma", "Stripe", "Twilio", "Docker Compose",
       "Nginx", "Prometheus", "OpenAPI", "Playwright", "Pytest", "Kafka",
@@ -32,10 +32,9 @@ export const resumeData = {
       date: "2025 \u2013 Present",
       bullets: [
         "Reduced LLM response errors in website DOM analysis by implementing structured extraction with ~~Instructor and Pydantic~~, validating outputs against reusable data models for downstream services",
+        "Added integration and component tests for embedding-provider boundaries and Redis wiki caching, covering AI data dependencies and recovery behavior to catch regressions during rapid AI-assisted development",
+        "Implemented ~~end-to-end CI/CD and infrastructure as code~~ with Terraform, GitHub Actions, Docker, Kubernetes, and Argo CD, automating provisioning and deployments with rollout and health checks to support rapid AI-assisted development while maintaining production reliability",
         "Moved workflow analysis and segment generation into ~~Redis/RQ background workers~~, connecting FastAPI endpoints and frontend result retrieval for asynchronous processing",
-        "Added integration and component tests for embedding-provider boundaries and Redis wiki caching, covering AI data dependencies and recovery behavior",
-        "Corrected PPO token-probability calculations and variable-length minibatch handling in a ~~PyTorch RLHF research implementation~~, adding local transformer regression tests",
-        "Implemented ~~end-to-end CI/CD and infrastructure as code~~ with Terraform, GitHub Actions, Docker, Kubernetes, and Argo CD, automating infrastructure provisioning and application deployments with rollout and health checks",
         "Built live analysis progress updates with FastAPI Server-Sent Events and React, giving users visibility into long-running processing workflows",
         "Established shared contracts and access controls across Next.js and FastAPI, automating TypeScript generation from OpenAPI in CI and enforcing role-based API permissions with regression coverage",
       ],

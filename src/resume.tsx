@@ -398,8 +398,8 @@ export const Resume = ({ titleOverride, highlightSkillsOverride }: ResumeProps =
             <View style={s.skillCategory} wrap={false}>
               <Text style={s.skillCategoryLabel}>Languages</Text>
               <View style={s.pillRow}>
-                {["JavaScript", "Python", "Go", "TypeScript", "SQL", "Node"].map((sk) => (
-                  <Pill key={sk} text={sk} highlight={highlightSkills.includes(sk) || (!highlightSkillsOverride && ["JavaScript", "Python", "Go", "Node"].includes(sk))} />
+                {["JavaScript", "Python", "Go", "TypeScript", "SQL"].map((sk) => (
+                  <Pill key={sk} text={sk} highlight={highlightSkills.includes(sk) || (!highlightSkillsOverride && ["JavaScript", "Python", "Go"].includes(sk))} />
                 ))}
               </View>
             </View>
@@ -407,7 +407,7 @@ export const Resume = ({ titleOverride, highlightSkillsOverride }: ResumeProps =
             <View style={s.skillCategory} wrap={false}>
               <Text style={s.skillCategoryLabel}>Backend</Text>
               <View style={s.pillRow}>
-                {["Express", "FastAPI", "Flask", "Gin", "Django", "Nginx"].map((sk) => (
+                {["Node.js", "Express", "FastAPI", "Flask", "Gin", "Django", "Nginx"].map((sk) => (
                   <Pill key={sk} text={sk} highlight={highlightSkills.includes(sk) || (!highlightSkillsOverride && ["Express", "FastAPI", "Flask"].includes(sk))} />
                 ))}
               </View>
@@ -434,8 +434,8 @@ export const Resume = ({ titleOverride, highlightSkillsOverride }: ResumeProps =
             <View style={s.skillCategory} wrap={false}>
               <Text style={s.skillCategoryLabel}>Frontend</Text>
               <View style={s.pillRow}>
-                {["React", "Next.js", "HTML", "CSS", "JS", "Tailwind", "WebSockets", "SSE"].map((sk) => (
-                  <Pill key={sk} text={sk} highlight={highlightSkills.includes(sk) || (!highlightSkillsOverride && ["HTML", "CSS", "JS"].includes(sk))} />
+                {["React", "Next.js", "HTML", "CSS", "Tailwind", "WebSockets", "SSE"].map((sk) => (
+                  <Pill key={sk} text={sk} highlight={highlightSkills.includes(sk) || (!highlightSkillsOverride && ["HTML", "CSS"].includes(sk))} />
                 ))}
               </View>
             </View>
@@ -443,8 +443,8 @@ export const Resume = ({ titleOverride, highlightSkillsOverride }: ResumeProps =
             <View style={s.skillCategory} wrap={false}>
               <Text style={s.skillCategoryLabel}>AI & ML</Text>
               <View style={s.pillRow}>
-                {["LLMs", "Claude", "Codex", "Gemini", "Cursor", "DeepSeek", "Prompt Eng.", "Instructor", "LangChain", "RAG", "MLOps", "PyTorch", "Scikit-Learn"].map((sk) => (
-                  <Pill key={sk} text={sk} highlight={highlightSkills.includes(sk) || (!highlightSkillsOverride && ["LLMs", "Claude", "Prompt Eng."].includes(sk))} />
+                {["LLMs", "Claude API", "Codex", "Gemini", "Cursor", "DeepSeek", "Prompt Eng.", "Instructor", "LangChain", "RAG", "MLOps", "PyTorch", "Scikit-Learn"].map((sk) => (
+                  <Pill key={sk} text={sk} highlight={highlightSkills.includes(sk) || (!highlightSkillsOverride && ["LLMs", "Claude API", "Prompt Eng."].includes(sk))} />
                 ))}
               </View>
             </View>
@@ -508,7 +508,7 @@ export const Resume = ({ titleOverride, highlightSkillsOverride }: ResumeProps =
             <View style={s.pillRow}>
               {["Stripe", "PayPal", "HyperWallet", "Twilio", "Algolia",
                 "CloudSearch", "Contentful", "Sentry", "Datadog",
-                "Shopify", "Squarespace", "Stytch", "Next.js",
+                "Shopify", "Squarespace", "Stytch",
               ].map((sk) => (
                 <Pill key={sk} text={sk} />
               ))}
