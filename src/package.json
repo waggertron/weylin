@@ -1,0 +1,30 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run generate",
+    "test": "node --test publish.test.cjs",
+    "typecheck": "tsc --noEmit",
+    "generate": "tsx generate.tsx",
+    "generate:onepage": "tsx generate-onepage.tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@fontsource-variable/lora": "^5.2.8",
+    "@fontsource/lora": "^5.2.8",
+    "@react-pdf/renderer": "^4.3.2",
+    "@types/react": "^19.2.14",
+    "react": "^19.2.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "sharp": "^0.34.5"
+  }
+}

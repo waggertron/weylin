@@ -8,11 +8,25 @@
 !.codex/.gitkeep
 !src/
 !src/resume-data.ts
+!src/resume.tsx
+!src/generate.tsx
+!src/publish.test.cjs
+!src/package.json
+!src/package-lock.json
+!src/tsconfig.json
+!src/assets/
+!src/assets/fonts/
+!src/assets/fonts/Inter-Regular.ttf
+!src/assets/fonts/Inter-Bold.ttf
+!src/assets/fonts/Lora-Regular.ttf
+!src/assets/fonts/Lora-Bold.ttf
+!src/assets/fonts/Lora-Italic.ttf
 
 # Allow the outputs directory itself, but ignore everything inside…
 !outputs/
 outputs/*
 
-# …except the currently-served resume PDF.
+# Stable published resume and previously published URLs.
+!outputs/resume.pdf
 !outputs/2026-05-07-resume-cv-weylin-wagnon.pdf
 !outputs/2026-07-03-resume-cv-weylin-wagnon.pdf

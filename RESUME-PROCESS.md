@@ -42,7 +42,9 @@ weylin-wagnon-resume/
 ## PDF Generation
 - **Library:** `@react-pdf/renderer` (React PDF)
 - **How it works:** Structured content and skills live in `resume-data.ts`; `resume.tsx` contains styling/layout and separate hardcoded lists of displayed skills.
-- **Base resume:** `cd src && npx tsx generate.tsx`
+- **Base resume and website PDF:** `cd src && npm ci && npm run build`
+- The build saves a dated archive in `outputs/` and automatically updates `outputs/resume.pdf`, the stable URL used by the website. A failed render leaves the published PDF unchanged.
+- Commit and push `outputs/resume.pdf` along with the source changes to publish on GitHub Pages. Building updates the local website artifact; it does not commit or push automatically. Older published PDF URLs remain available.
 - **All customized resumes:** `cd src && npx tsx generate-batch.tsx`
 
 ### Resume Customization System
@@ -62,7 +64,7 @@ Format for title: `Level | Domain/Specialty | Tech Focus`. Match the job descrip
 
 ### When updating resume content:
 1. Edit `src/resume-data.ts` with new content. For bullet rewrites and skill changes, follow the checks below.
-2. Regenerate PDF from `src/`: `rtk npx tsx generate.tsx`. The generator writes the dated PDF directly to `outputs/`.
+2. Regenerate PDF from `src/`: `npm run build`. The generator writes a dated archive and updates the website's `outputs/resume.pdf` automatically.
 3. Check the generated PDF for the intended content, clipping, and unexpected page breaks or page count changes.
 4. Save a markdown snapshot to `content/versions/` with date prefix
 5. Commit changes
